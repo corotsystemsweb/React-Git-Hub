@@ -5,8 +5,6 @@ import RequestAFreeQuote from '../components/RequestAFreeQuote';
 import ServivesProcess from '../components/ServivesProcess';
 import WhatClientSay from '../components/WhatClientSay';
 import WhyChoose from '../components/WhyChoose';
-
-
 const Default = () => {
   return (
     <>
@@ -19,5 +17,4 @@ const Default = () => {
     </>
   )
 }
-
 export default Default;
