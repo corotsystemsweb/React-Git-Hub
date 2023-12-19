@@ -2,10 +2,10 @@ import React from 'react';
 import ServiceImg from "../assets/images/service.png";
 import PageTopBanner from '../components/PageTopBanner';
 
-const Services = () => {
+const Course = () => {
   return (
    <>
-   <PageTopBanner pageTitle={"Sales & Services"} />
+   <PageTopBanner pageTitle={"Course Details"} />
    <div class="about">
   <div class="container">
      <div class="row">
@@ -39,4 +39,4 @@ const Services = () => {
   )
 }
 
-export default Services;
+export default Course;

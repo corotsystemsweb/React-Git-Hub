@@ -4,10 +4,12 @@ import './assets/scss/App.scss';
 import Default from './views/Default';
 import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Services from './views/Services';
-import Contact from './views/Contact';
+
 import AboutUs from './views/AboutUs';
-import Rent from './views/Rent';
+import Course from './views/Course';
+import PhotoGallery from './views/PhotoGallery';
+import Contact from './views/Contact';
+
 function App() {
   return (
     <div className="App">
@@ -16,10 +18,10 @@ function App() {
       <Routes>
         <Route path="/" element={ <Default /> } />
         <Route path="/index/" element={ <Default /> } />
-        <Route path="/services/" element={ <Services /> } />
-        <Route path="/contact-us/" element={ <Contact /> } />
         <Route path="/about-us/" element={  <AboutUs /> } />
-        <Route path="/rent-a-computer/" element={  <Rent /> } />
+        <Route path="/course/" element={ <Course /> } />
+        <Route path="/photo-gallery/" element={ <PhotoGallery /> } />
+        <Route path="/contact/" element={  <Contact /> } />
       </Routes>
       <Footer />
     

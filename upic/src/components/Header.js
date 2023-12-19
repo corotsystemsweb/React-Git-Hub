@@ -22,7 +22,7 @@ const Header = () => {
                   </div>
                   <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                        <div className="top-box">
-                        <p>Phone: 9886658489 | Email: greencomp.in@gmail.com </p>
+                        <p>Phone: 9886658489 | Email: testsite@gmail.com </p>
                     </div>
                   </div>
                </div>
@@ -47,8 +47,8 @@ const Header = () => {
                            <ul className="menu-area-main">
                            <li> <NavLink to="/">Home</NavLink></li>
                            <li> <NavLink to="/about-us">About Us</NavLink></li> 
-                           <li> <NavLink to="/services">Sales & Services</NavLink></li>
-                           <li> <NavLink to="/rent-a-computer">Rent a Computer</NavLink></li>    
+                           <li> <NavLink to="/course">Course</NavLink></li>
+                           <li> <NavLink to="/photo-gallery">Photo Gallery</NavLink></li>    
                            <li> <NavLink to="/contact-us">Contact Us</NavLink></li>                     
                            </ul>
                         </nav>

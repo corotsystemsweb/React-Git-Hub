@@ -2,10 +2,10 @@ import React from 'react';
 import AboutImg from "../assets/images/about.png";
 import PageTopBanner from '../components/PageTopBanner';
 
-const WhyUs = () => {
+const PhotoGallery = () => {
   return (
     <>
-    <PageTopBanner pageTitle={"Why Us"} />
+    <PageTopBanner pageTitle={"Photo Gallery"} />
     <div class="about">
    <div class="container">
       <div class="row">
@@ -28,4 +28,4 @@ const WhyUs = () => {
   )
 }
 
-export default WhyUs;
+export default PhotoGallery;
