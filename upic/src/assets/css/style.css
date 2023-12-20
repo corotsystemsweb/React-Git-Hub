@@ -2150,6 +2150,8 @@ ul.lik li a:hover {
 	color: #fff;
 }
 
+
+
 /** end footer section **/
 /*---------------------------------------------------------------------
     ener page css
@@ -2435,3 +2437,9 @@ text-align: center;
       flex: 100%;
       max-width: 100%;
     }}
+
+	.span-head{
+		font-size: 26px;
+		font-weight: 600;
+		color: #d16c6a;
+	}

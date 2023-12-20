@@ -5,15 +5,17 @@ import RequestAFreeQuote from '../components/RequestAFreeQuote';
 import ServivesProcess from '../components/ServivesProcess';
 import WhatClientSay from '../components/WhatClientSay';
 import WhyChoose from '../components/WhyChoose';
+import Welcome from '../components/Welcome';
 const Default = () => {
   return (
     <>
       <HomeSlider />
-      <OurProducts />
+      <Welcome />
+      {/* <OurProducts />
       <WhyChoose />
       <ServivesProcess />
       <WhatClientSay />
-      <RequestAFreeQuote />
+      <RequestAFreeQuote /> */}
     </>
   )
 }
