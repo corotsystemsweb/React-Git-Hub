@@ -24,17 +24,6 @@ const Footer = () => {
                </div>
                <div className="col-md-4 ">
                   <div className="contact">
-                     <h3>Conatct Us</h3>
-                     <span><br />
-                      <br />
-                        <br />
-                       <br />
-                        Phone - 9886658489 
-                        </span>
-                  </div>
-               </div>
-                 <div className="col-md-4 ">
-                  <div className="contact">
                      <h3>Useful Links</h3>
                      <ul className="lik">
                            <li> <a href="/about-us">About Us</a></li> 
@@ -44,6 +33,18 @@ const Footer = () => {
                      </ul>
                   </div>
                </div>
+               <div className="col-md-4 ">
+                  <div className="contact">
+                     <h3>Conatct Us</h3>
+                     <span><br />
+                      <br />
+                        <br />
+                       <br />
+                        Phone - 9886658489 
+                        </span>
+                  </div>
+               </div>
+                 
                 
                 
             </div>
