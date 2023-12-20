@@ -1,6 +1,6 @@
 import React from 'react';
 import AboutImg from "../assets/images/about.png";
-import About2 from "../assets/images/about.jpeg";
+import About2 from "../assets/images/banner.jpeg";
 import PageTopBanner from '../components/PageTopBanner';
 
 
