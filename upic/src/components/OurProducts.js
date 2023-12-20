@@ -17,7 +17,7 @@ const OurProducts = () => {
                <div className="col-md-12">
                   <div className="title">
                      <h2>Our <strong className="black">Courses</strong></h2>
-                     <span>"Uday Pratap Inter College: A hub of academic excellence, fostering holistic development and empowering students for a brighter future through quality education and dedicated mentorship."
+                     <span>"Uday Pratap Inter College" A hub of academic excellence, fostering holistic development and empowering students for a brighter future through quality education and dedicated mentorship."
 
 
 
