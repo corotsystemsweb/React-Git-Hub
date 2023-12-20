@@ -23,7 +23,7 @@ const PhotoGallery = () => {
             <div class="container">
             <div class="row">
             <div class="column">
-                <img src={}></img>
+               
             </div>
             <div class="column">
                 
