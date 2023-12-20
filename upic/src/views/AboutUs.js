@@ -8,19 +8,16 @@ import "../assets/css/style.css";
 const AboutUs = () => {
   return (
    <>
-     <PageTopBanner pageTitle={"About Us"} />
-    <div class="about">
-    <div class="container">
-       <div class="row">
-          <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-             <div class="about_box">
-                <figure><img src={ AboutImg } alt="About Uday Pal Inter College" /></figure>
-             </div>
-          </dir>
-           <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-             <div class="about_box">
-                <h3>About Us</h3>
-                   <p><strong>Green Computers</strong>, We are the leading hardware & upgrade service provider for users of Laptops, Desktops, Printers and Servers.</p>
+         <PageTopBanner pageTitle={"About Us"} />
+         <div className="about">
+            <div className="container">
+               <div className="row">
+                  <div className="col-md-12 text-center">
+                     <h2 className='page-head'>About Us</h2>
+                     <p>Welcome to Uday Pratap Inter College, where academic excellence meets holistic development.
+                        Our institution is committed to nurturing young minds, fostering a love for learning, and empowering
+                        students with the knowledge and skills to navigate a dynamic world.</p>
+                  </div>
 
                </div>
                <div className="row mt-5">
