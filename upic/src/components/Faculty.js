@@ -3,7 +3,9 @@ import Faculty1 from "../assets/images/faculty.jpg";
 import Monitor from "../assets/images/p2.png";
 import CPU from "../assets/images/p3.png";
 import Printer from "../assets/images/p4.png";
-
+import Faculty2 from "../assets/images/faculty1.jpg";
+import Faculty3 from "../assets/images/faculty2.jpg";
+import Faculty4 from "../assets/images/faculty3.jpg"
 const Faculty = () => {
    return (
       <>
@@ -27,29 +29,29 @@ const Faculty = () => {
                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="faculty-box">
                            <i><img src={Faculty1} alt="Faculty" /></i>
-                           <h3>Laptop</h3>
-                           <span>&#8377; 25000</span>
+                           <h3>Miss Amisha</h3>
+                           <span> Teacher</span>
                         </div>
                      </div>
                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="faculty-box">
-                           <i><img src={Monitor} alt="Faculty1" /></i>
-                           <h3>Monitor</h3>
-                           <span>&#8377; 25000</span>
+                           <i><img src={Faculty2} alt="Faculty2" /></i>
+                           <h3>Mr Aman</h3>
+                           <span> Teacher</span>
                         </div>
                      </div>
                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="product-box">
-                           <i><img src={CPU} alt="Faculty2" /></i>
-                           <h3>CPU</h3>
-                           <span>&#8377; 25000</span>
+                           <i><img src={Faculty3} alt="Faculty3" /></i>
+                           <h3>Miss Shachi</h3>
+                           <span> Teacher</span>
                         </div>
                      </div>
                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="faculty-box">
-                           <i><img src={Printer} alt="Faculty3" /></i>
-                           <h3>Printer</h3>
-                           <span>&#8377; 25000</span>
+                           <i><img src={Faculty4} alt="Faculty4" /></i>
+                           <h3>Ms. Arpita</h3>
+                           <span> Teacher</span>
                         </div>
                      </div>
 
