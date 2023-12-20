@@ -1,6 +1,5 @@
 import React from 'react';
 import PageTopBanner from '../components/PageTopBanner';
-import Gallery1 from '../assets/images/'
 
 const PhotoGallery = () => {
    return (
