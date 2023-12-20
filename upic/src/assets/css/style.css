@@ -226,7 +226,7 @@ button {
 }
 
 .theme_bg {
-	background: #38c8a8;
+	background: #d55269;
 }
 
 .margin_top_30 {
@@ -1655,15 +1655,22 @@ float: right;
 	color: #fff;
 }
 
-.head_top {background: #48ca95;
-margin-bottom: 35px;
+.head_top {
+    background: #297db8;
+    margin-bottom: 35px;
 }
+
 ul.sociel_link {
 	display: flex;
 flex-wrap: wrap;
 justify-content: center;
 margin: 0 auto;
 float: left;
+}
+
+ul.sociel_link li {
+    display: inline-block;
+    margin: 10px !important;
 }
 
 .top-box p {
@@ -1785,7 +1792,7 @@ margin-top: 20px;
 }
 
 .choose_bg {
-	background: #48ca95;
+    background: #d55269;
 }
 
 

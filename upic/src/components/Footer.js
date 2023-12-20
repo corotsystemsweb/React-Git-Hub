@@ -58,7 +58,7 @@ const Footer = () => {
             </div>
          </div>
             <div className="copyright">
-               <p>Copyright 2022, All Right Reserved.</p>
+               <p>© 2023 Uday Pratap Inter College. All Right Reserved. Designed and Developed By <a href='https://www.corotsystems.com/' target='_blanck'>Corot Systems.</a></p>
             </div>
          
       </div>

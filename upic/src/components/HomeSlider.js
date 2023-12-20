@@ -19,14 +19,14 @@ const HomeSlider = () => {
                <source media="(max-width: 465px)" srcset={SliderImg1Mob} />
                <img className="first-slide"  src={SliderImg1} alt="First slide" />
             </picture>
-             <div className="container">
+             {/* <div className="container">
                 <div className="carousel-caption relative">
                    <h1> <br /> <strong className="black_bold"></strong><br />
                       <strong className="yellow_bold">UDAY PRATAP INTER COLLEGE</strong></h1>
                    <p>&nbsp;</p>
                    
                 </div>
-             </div>
+             </div> */}
           </div>
           <div className="carousel-item">
           <picture>
