@@ -2,8 +2,7 @@ import React from 'react';
 import logo from "../assets/images/logo.jpg";
 import { NavLink } from "react-router-dom";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
+import * as Unicons from "@iconscout/react-unicons";
 
 const Header = () => {
   return (
@@ -17,10 +16,9 @@ const Header = () => {
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                        <div className="top-box">
                         <ul className="sociel_link">
-                         <li> <FontAwesomeIcon icon={ faThumbsUp }/></li>
-                         <li> <a href="#"><i className="fa fa-twitter"></i></a></li>
-                         <li> <a href="#"><i className="fa fa-instagram"></i></a></li>
-                         <li> <a href="#"><i className="fa fa-linkedin"></i></a></li>
+                         <li><Unicons.UilFacebook style={{color:'#fff'}} /></li>
+                         <li><Unicons.UilYoutube style={{color:'#fff'}} /></li>
+                         <li><Unicons.UilInstagram style={{color:'#fff'}} /></li>
                      </ul>
                     </div>
                   </div>
