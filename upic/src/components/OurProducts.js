@@ -16,7 +16,7 @@ const OurProducts = () => {
             <div className="row">
                <div className="col-md-12">
                   <div className="title">
-                     <h2>our <strong className="black">products</strong></h2>
+                     <h2>our <strong className="black">Courses</strong></h2>
                      <span>We are able to provide quality parts and accessories at a fair price. We're building toward a leading source of both common and hard-to-find parts & accessories for the Laptop, Desktop, Server & Printers.</span>
                   </div>
                </div>

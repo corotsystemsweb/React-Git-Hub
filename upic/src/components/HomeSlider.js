@@ -1,5 +1,5 @@
 import React from 'react';
-import SliderImg1 from "../assets/images/banner1.jpg";
+import SliderImg1 from "../assets/images/banner-01.jpg";
 import SliderImg1Mob from "../assets/images/banner1-mobile.jpg";
 import SliderImg2 from "../assets/images/banner2.jpg";
 import SliderImg2Mob from "../assets/images/banner2-mobile.jpg";
@@ -21,8 +21,8 @@ const HomeSlider = () => {
             </picture>
              <div className="container">
                 <div className="carousel-caption relative">
-                   <h1>Laptop <br /> <strong className="black_bold">Desktop </strong><br />
-                      <strong className="yellow_bold">Network</strong></h1>
+                   <h1> <br /> <strong className="black_bold"></strong><br />
+                      <strong className="yellow_bold">UDAY PRATAP INTER COLLEGE</strong></h1>
                    <p>&nbsp;</p>
                    
                 </div>
