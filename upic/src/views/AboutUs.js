@@ -1,5 +1,5 @@
 import React from 'react';
-import AboutImg from "../assets/images/about.png";
+import AboutImg from "../assets/images/about-2.jpeg";
 import About2 from "../assets/images/banner.jpeg";
 import PageTopBanner from '../components/PageTopBanner';
 import "../assets/css/style.css";
@@ -23,7 +23,7 @@ const AboutUs = () => {
                <div className="row mt-5">
                   <div className="col-md-6 ">
                      <div className="about_box mt-5">
-                        <figure><img src={About2} alt="About Us" className='img-shadow'/></figure>
+                        <figure><img src={AboutImg} alt="About Us" className='img-shadow'/></figure>
                      </div>
                   </div>
                   <div className="col-md-6">
