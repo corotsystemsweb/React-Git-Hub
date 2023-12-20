@@ -2371,3 +2371,14 @@ text-align: center;
 .myTest{
 	color: green !important;
 }
+
+.page-head{
+    font-size: 38px;
+    font-weight: 600;
+    color: #3280ad;
+}
+
+.img-shadow{
+    border: 1px solid gray;
+    box-shadow: 0 0 0.3rem;
+}
