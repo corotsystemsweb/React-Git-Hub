@@ -1,6 +1,10 @@
 import React from 'react';
 import logo from "../assets/images/logo.jpg";
 import { NavLink } from "react-router-dom";
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
+
 const Header = () => {
   return (
  
@@ -13,7 +17,7 @@ const Header = () => {
                     <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                        <div className="top-box">
                         <ul className="sociel_link">
-                         <li> <a href="#"><i className="fa fa-facebook-f"></i></a></li>
+                         <li> <FontAwesomeIcon icon={ faThumbsUp }/></li>
                          <li> <a href="#"><i className="fa fa-twitter"></i></a></li>
                          <li> <a href="#"><i className="fa fa-instagram"></i></a></li>
                          <li> <a href="#"><i className="fa fa-linkedin"></i></a></li>
