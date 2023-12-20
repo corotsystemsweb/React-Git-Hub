@@ -16,45 +16,36 @@ const Footer = () => {
                   </div>
             </div>
             <div className="row">
-               <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+            <div className="col-md-4 ">
                   <div className="contact">
-                     <h3>conatct us</h3>
-                     <span>#18, ATR Complex,<br />
-                       2nd Main, Old Airport Road,<br />
-                        MurgeshPalya, <br />
-                        Bengaluru - 560017<br />
+                     <h3>Uday Pratap Inter College</h3>
+                     <span> </span>
+                  </div>
+               </div>
+               <div className="col-md-4 ">
+                  <div className="contact">
+                     <h3>Conatct Us</h3>
+                     <span><br />
+                      <br />
+                        <br />
+                       <br />
                         Phone - 9886658489 
                         </span>
                   </div>
                </div>
-                 <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                 <div className="col-md-4 ">
                   <div className="contact">
-                     <h3>ADDITIONAL LINKS</h3>
+                     <h3>Useful Links</h3>
                      <ul className="lik">
                            <li> <a href="/about-us">About Us</a></li> 
-                           <li> <a href="/services">Sales & Services</a></li>
-                           <li> <a href="/rent-a-computer">Rent a Computer</a></li>    
+                           <li> <a href="/course">Course</a></li>
+                           <li> <a href="/photo-gallery">Photo Gallery</a></li>    
                            <li> <a href="/contact-us">Contact Us</a></li> 
                      </ul>
                   </div>
                </div>
-                 <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div className="contact">
-                     <h3>service</h3>
-                      <ul className="lik">
-                        <li> <a href="#"> Data recovery</a></li>
-                         <li> <a href="#">Computer repair</a></li>
-                         <li> <a href="#">Network solutions</a></li>
-                          <li> <a href="#">Technical support</a></li>
-                        </ul>
-                  </div>
-               </div>
-                 <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                  <div className="contact">
-                     <h3>Return & Warranty</h3>
-                     <span>Tincidunt elit magnis nulla facilisis. Dolor Sapien nunc amet ultrices, <a href="#">read more</a> </span>
-                  </div>
-               </div>
+                
+                
             </div>
          </div>
             <div className="copyright">
