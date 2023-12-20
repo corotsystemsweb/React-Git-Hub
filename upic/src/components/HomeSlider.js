@@ -1,6 +1,6 @@
 import React from 'react';
 import SliderImg1 from "../assets/images/banner-01.jpg";
-import SliderImg1Mob from "../assets/images/banner1-mobile.jpg";
+import SliderImg1Mob from "../assets/images/banner-about.jpg";
 import SliderImg2 from "../assets/images/banner2.jpg";
 import SliderImg2Mob from "../assets/images/banner2-mobile.jpg";
 import SliderImg3 from "../assets/images/banner3.jpg";
