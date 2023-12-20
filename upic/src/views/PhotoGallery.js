@@ -1,31 +1,42 @@
 import React from 'react';
-import AboutImg from "../assets/images/about.png";
 import PageTopBanner from '../components/PageTopBanner';
+import Gallery1 from '../assets/images/'
 
 const PhotoGallery = () => {
-  return (
-    <>
-    <PageTopBanner pageTitle={"Photo Gallery"} />
-    <div class="about">
-   <div class="container">
-      <div class="row">
-         <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-            <div class="about_box">
-               <figure><img src={ AboutImg } alt="About Green Computers" /></figure>
+   return (
+      <>
+         <PageTopBanner pageTitle={"Photo Gallery"} />
+
+         <section className='mt-5 mb-5'>
+            <div className='container'>
+               <div className="row">
+                  <div className="col-md-12 text-center">
+                     <h2 className='page-head'>Photo Gallery</h2>
+                     <p>Welcome to the Course Page of Uday Pratap Inter College, where academic excellence meets holistic education.
+                        Explore our diverse range of courses designed to nurture intellectual curiosity,
+                        foster critical thinking, and empower students with the knowledge and skills necessary for a dynamic future.
+                     </p>
+                  </div>
+
+               </div>
             </div>
-         </dir>
-          <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
-            <div class="about_box">
-               <h3>Who is Lighten</h3>
-               <p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum.</p>
-               <p>Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+            <div class="container">
+            <div class="row">
+            <div class="column">
+                <img src={}></img>
             </div>
-         </dir> 
-      </div>
-   </div>
- </div>
- </>
-  )
+            <div class="column">
+                
+            </div>
+           
+           
+          </div>
+            </div>
+         </section>
+
+
+      </>
+   )
 }
 
 export default PhotoGallery;
