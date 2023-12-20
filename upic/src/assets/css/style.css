@@ -2443,3 +2443,29 @@ text-align: center;
 		font-weight: 600;
 		color: #d16c6a;
 	}
+
+	.feature-section .col h3{
+		text-align: center;
+		color: #d66c6a;
+		font-size: 25px;
+	}
+	.feature-section .col p{
+		text-align: center;
+	}
+
+	.feature-section .col {
+		border: 1px solid white;
+		box-shadow: 0 0 0.1rem;
+		padding: 15px;
+		margin: 10px;
+		max-height: 170px;
+	}
+	
+	.feature-section .col:hover {
+		border: 1px solid gray;
+		box-shadow: 0 0 0.2rem;
+		padding: 15px;
+		margin: 46px;
+		max-height: max-content;
+		transform: scale(1.2);
+	}

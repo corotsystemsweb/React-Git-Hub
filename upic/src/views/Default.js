@@ -7,6 +7,8 @@ import WhatClientSay from '../components/WhatClientSay';
 import WhyChoose from '../components/WhyChoose';
 import Welcome from '../components/Welcome';
 import Faculty from '../components/Faculty';
+
+
 const Default = () => {
   return (
     <>
