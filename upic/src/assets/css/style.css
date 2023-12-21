@@ -1777,9 +1777,9 @@ content: '';
 top: 100%;
 width: 110px;
 height: 10px;
-display: block;
+
 margin: 0 auto;
-background: #000;
+
 }
 
 .title span{
@@ -1801,7 +1801,7 @@ margin-top: 20px;
 .choose_bg .white_bg  {
 	background: #fff;
 	padding: 40px 20px;
-	box-shadow: #ddd 0px 0px 10px 3px;
+	box-shadow: none;
 	margin-bottom: 5px;
 }
 .choose_bg .white_bg .for_box {
