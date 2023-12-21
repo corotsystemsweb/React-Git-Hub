@@ -12,7 +12,8 @@ const Faculty = () => {
                <div className="row">
                   <div className="col-md-12">
                      <div className="title">
-                        <h2>Our <strong className="black">Faculties</strong></h2>
+                     <span> <strong className="black">OUR</strong></span>
+                            <h2>FACULTIES</h2>
                         <span>"Uday Pratap Inter College" A hub of academic excellence, fostering holistic development and empowering students for a brighter future through quality education and dedicated mentorship."
                         </span>
                      </div>

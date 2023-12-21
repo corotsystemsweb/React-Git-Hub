@@ -1791,6 +1791,7 @@ margin-top: 20px;
 .black {
     font-weight: 500;
     color: #3280ad;
+	font-size: 20px;
 }
 
 .choose_bg {
@@ -1897,7 +1898,7 @@ margin-top: 40px;
 
 
 .product .title h2 {
-    font-size: 40px;
+    font-size: 38px;
     line-height: 55px;
     color: #d16c6a;
     font-weight: 500;
