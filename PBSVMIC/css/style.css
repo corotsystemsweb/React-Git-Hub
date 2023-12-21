@@ -581,7 +581,7 @@ p.mb-2 {
 }
 
 .f-44{
-        font-size: 38px !important;
+        font-size: 44px !important;
     }
 
 li{
@@ -743,3 +743,11 @@ li{
       max-width: 100%;
     }
   }
+
+  .h-icon{
+    height: 167px;
+}
+.h-text{
+    height: 145px !important;
+    background: #fff !important;
+}
