@@ -743,6 +743,7 @@ li{
       max-width: 100%;
     }
   }
+<<<<<<< Updated upstream
 
   .h-icon{
     height: 167px;
@@ -751,3 +752,59 @@ li{
     height: 145px !important;
     background: #fff !important;
 }
+=======
+  /* Add this CSS to your stylesheet or create a new stylesheet for faculty.css */
+
+.product {
+    background-color: red;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .title {
+    text-align: center;
+  }
+  
+  .faculty-bg {
+    background-color: blue;
+    padding: 40px 0;
+  }
+  
+  .faculty-box {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .faculty-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .faculty-box i img {
+    width: 100%;
+    border-radius: 50%;
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .faculty-box h3 {
+    margin-bottom: 5px;
+  }
+  
+  .faculty-box span {
+    display: block;
+    color: #555;
+  }
+  
+  .product-bg-white {
+    background-color: white;
+    padding: 40px 0;
+  }
+  
+  /* You can customize these styles further based on your design preferences. */
+  
+>>>>>>> Stashed changes

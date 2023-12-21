@@ -1,4 +1,5 @@
 import React from 'react';
+import "../assets/css/style.css";
 import Faculty1 from "../assets/images/faculty.jpg";
 import Faculty2 from "../assets/images/faculty1.jpg";
 import Faculty3 from "../assets/images/faculty2.jpg";
@@ -26,28 +27,28 @@ const Faculty = () => {
                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="faculty-box">
                            <i><img src={Faculty1} alt="Faculty" /></i>
-                           <h3>Miss Amisha</h3>
+                           <h4>Miss Amisha</h4>
                            <span> Teacher</span>
                         </div>
                      </div>
                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="faculty-box">
                            <i><img src={Faculty2} alt="Faculty2" /></i>
-                           <h3>Mr Aman</h3>
+                           <h4>Mr Aman</h4>
                            <span> Teacher</span>
                         </div>
                      </div>
                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
-                        <div className="product-box">
+                        <div className="faculty-box">
                            <i><img src={Faculty3} alt="Faculty3" /></i>
-                           <h3>Miss Shachi</h3>
+                           <h4>Miss Shachi</h4>
                            <span> Teacher</span>
                         </div>
                      </div>
                      <div className="col-xl-3 col-lg-3 col-md-6 col-sm-12">
                         <div className="faculty-box">
                            <i><img src={Faculty4} alt="Faculty4" /></i>
-                           <h3>Ms. Arpita</h3>
+                           <h4>Ms. Arpita</h4>
                            <span> Teacher</span>
                         </div>
                      </div>
