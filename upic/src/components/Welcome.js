@@ -36,7 +36,7 @@ const Welcome = () => {
                             </div>
                             <div class="col">
                             <h3>Faculty</h3>
-                            <p>Our passionate educators foster a nurturing environment to inspire and guide students toward success.
+                            <p>Our passionate educators foster a nurturing environment to inspire and guide students toward academic success.
                             </p>
                             </div>
                         </div></div>
