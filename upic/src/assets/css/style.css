@@ -2465,7 +2465,7 @@ text-align: center;
 		border: 1px solid lightgray;
 		box-shadow: 0 0 0.2rem;
 		padding: 15px;
-		margin: 46px;
+		margin: 0px 40px 0 40px;
 		max-height: max-content;
-		transform: scale(1.2) 0.2sec;
+		transform: scale(1) 0.2sec;
 	}
