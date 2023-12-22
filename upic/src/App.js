@@ -19,7 +19,7 @@ function App() {
         <Route path="/about-us/" element={  <AboutUs /> } />
         <Route path="/course/" element={ <Course /> } />
         <Route path="/photo-gallery/" element={ <PhotoGallery /> } />
-        <Route path="/contact/" element={  <Contact /> } />
+        <Route path="/contact-us/" element={  <Contact /> } />
       </Routes>
       <Footer />
     </BrowserRouter> 
