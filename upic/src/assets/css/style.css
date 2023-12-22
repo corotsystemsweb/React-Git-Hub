@@ -896,11 +896,11 @@ nav.main-menu {
 }
 
 .wish-box a:hover {
-	color: #38c8a8;
+	color: #d66c6a;
 }
 
 .wish-box a span.icon {
-	background: #38c8a8;
+	background: #d66c6a;
 	width: 40px;
 	height: 40px;
 	display: inline-block;
@@ -2069,8 +2069,9 @@ margin-top: 20px;
 /** footer section **/
 
 .footer {
-	background: #1b1b1b;
-}
+    background: #3280ad;
+} 
+
 ul.sociel {
 	display: flex;
 	flex-wrap: wrap;
@@ -2136,19 +2137,17 @@ ul.lik li a:hover {
 }
 
 .copyright {
-    background-color: #4f9bb3;
     padding: 20px 0px;
     margin-top: 20px;
+    border-top: 1px solid black;
+    font-size: 16px;
 }
 
-.copyright p {
-	color: #023023;
-	font-size: 18px;
-	line-height: 22px;
-	text-align: center;
+.copyright.a{
+	color:white;
 }
 
-.copyright a:hover {
+.copyright.a:hover {
 	color: #fff;
 }
 
@@ -2629,4 +2628,18 @@ text-align: center;
 	margin: 10px 0;
   }
   
-  
+ .contact h4{
+	color: #fff;
+  }
+  .footer ul li a,
+  .copyright a{
+    color: #fff !important;
+    font-size: 15px !important;
+}
+
+  .footer ul li a:hover,
+  .copyright a {
+    color: #d16c6a !important;
+    font-size: 15px !important;
+}
+
