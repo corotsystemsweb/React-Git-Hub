@@ -1,10 +1,8 @@
-
 import Header from './components/Header';
 import './assets/scss/App.scss';
 import Default from './views/Default';
 import Footer from './components/Footer';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import AboutUs from './views/AboutUs';
 import Course from './views/Course';
 import PhotoGallery from './views/PhotoGallery';
@@ -24,7 +22,6 @@ function App() {
         <Route path="/contact/" element={  <Contact /> } />
       </Routes>
       <Footer />
-    
     </BrowserRouter> 
     </div>
   );

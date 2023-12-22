@@ -6,21 +6,22 @@ import Faculty3 from "../assets/images/faculty2.jpg";
 import Faculty4 from "../assets/images/faculty3.jpg"
 const Faculty = () => {
    return (
-      <>
-         <div className="product">
-            <div className="container">
-               <div className="row">
-                  <div className="col-md-12">
-                     <div className="title">
-                     <span> <strong className="black">OUR</strong></span>
-                            <h2>FACULTIES</h2>
-                        <span>"Uday Pratap Inter College" A hub of academic excellence, fostering holistic development and empowering students for a brighter future through quality education and dedicated mentorship."
-                        </span>
-                     </div>
-                  </div>
+      <><section className='mt-5'>
+
+         <div className="container mt-5">
+            <div className="row">
+               <div className='col-md-12 text-center'>
+                  <p>
+                     <span className='span-head'>Our</span>
+                     <h2 className='page-head'>Faculties</h2>
+                     <p> Uday Pratap Inter College is a hub of academic excellence, fostering holistic development and empowering students for a brighter future through quality education and dedicated mentorship.
+                     Uday Pratap Inter College stands as more than an educational institution. It is a community that inspires a love for learning and equips students with the skills needed to navigate a dynamic and ever-evolving world.
+                     </p>
+                  </p>
                </div>
             </div>
          </div>
+
          <div className="faculty-bg">
             <div className="product-bg-white">
                <div className="container">
@@ -61,6 +62,7 @@ const Faculty = () => {
             </div>
 
          </div>
+      </section>
       </>
    )
 }
