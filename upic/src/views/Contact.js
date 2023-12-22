@@ -9,13 +9,13 @@ const Contact = () => {
     <div class="about">
    <div class="container">
       <div class="row">
-      
-         <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+
+         <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <div class="about_box">
                <figure><img src={ ContactImg } alt="Contact to Green Computers" /></figure>
             </div>
-         </dir>
-          <dir class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
+         </div>
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
             <div class="about_box">
                <h3>Any Queries? Pleae talk to us</h3>
                <hr />
@@ -34,7 +34,7 @@ const Contact = () => {
                      Sunday - Holiday
                   </p>
             </div>
-         </dir> 
+         </div> 
       </div>
    </div>
 </div>
