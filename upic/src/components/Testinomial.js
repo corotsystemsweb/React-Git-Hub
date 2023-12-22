@@ -14,32 +14,32 @@ const Testimonial = () => {
   const courseData = [
     {
       image: PrimaryImg,
-      title: 'Primary',
+      title: 'Ravi',
       description: 'Discover comprehensive primary section courses at Uday Pratap Inter College, for academic journey.',
     },
     {
       image: JuniorImg,
-      title: 'Junior',
+      title: 'Shruti',
       description: 'Unlock a world of knowledge and skills through Uday Pratap Inter College\'s junior section courses.',
     },
     {
       image: HighSchoolImg,
-      title: 'High-School',
+      title: 'Shreya',
       description: 'Empower your academic journey at Uday Pratap Inter College\'s high school section with diverse courses.',
     },
     {
       image: IntermediateImg,
-      title: 'Intermediate',
+      title: 'Aniket',
       description: 'Elevate your educational experience with Uday Pratap Inter College\'s intermediate courses.',
     },
     {
         image: JuniorImg,
-        title: 'Junior',
+        title: 'Abhay',
         description: 'Unlock a world of knowledge and skills through Uday Pratap Inter College\'s junior section courses.',
       },
       {
         image: PrimaryImg,
-        title: 'Primary',
+        title: 'Surya',
         description: 'Discover comprehensive primary section courses at Uday Pratap Inter College, for academic journey.',
       },
   ];
