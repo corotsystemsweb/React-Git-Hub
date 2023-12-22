@@ -1,4 +1,5 @@
 import React from 'react';
+import "../assets/css/style.css";
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -14,8 +15,23 @@ const HomeSlider = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,       // Enable automatic sliding
-    autoplaySpeed: 200,  // Set the duration in milliseconds (0.2 seconds in this case)
+    autoplay: true,
+    autoplaySpeed: 2500, // Set the duration to 30 seconds
+    customPaging: function (i) {
+      return (
+        <button
+          style={{
+            width: '10px',
+            height: '10px',
+            borderRadius: '50%',
+            background: 'rgba(255, 255, 255, 0.7)',
+            border: '1px solid #fff',
+            outline: 'none',
+            margin: '0 5px',
+          }}
+        />
+      );
+    },
   };
 
   return (

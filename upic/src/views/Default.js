@@ -7,6 +7,8 @@ import WhatClientSay from '../components/WhatClientSay';
 import WhyChoose from '../components/WhyChoose';
 import Welcome from '../components/Welcome';
 import Faculty from '../components/Faculty';
+import Courses  from '../components/Courses';
+import Testinomial from '../components/Testinomial';
 
 
 const Default = () => {
@@ -14,7 +16,9 @@ const Default = () => {
     <>
       <HomeSlider />
       <Welcome />
+      <Courses />
       <Faculty />
+      <Testinomial/>
       {/* <OurProducts />
       <WhyChoose />
       <ServivesProcess />

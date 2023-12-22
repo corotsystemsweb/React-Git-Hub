@@ -2534,5 +2534,99 @@ text-align: center;
 }
 
   /* Faculty Section ended */
+
+/* Style the slider buttons (next and previous) */
+.slick-prev, .slick-next {
+	font-size: 40px; /* Set the font size */
+	width: 40px; /* Set the width */
+	height: 40px; /* Set the height */
+	line-height: 40px; /* Center the icon vertically */
+	border-radius: 50%; /* Make it a circle */
+	background: rgba(255, 255, 255, 0.7);
+	border: 1px solid #fff;
+  }
+  
+  
+  /* Adjust the size of the buttons on hover if needed */
+  .slick-prev:hover, .slick-next:hover {
+	width: 50px;
+	height: 50px;
+  }
+  .slick-dots li button:before {
+    font-family: 'slick';
+    font-size: 10px !important;
+    line-height: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* width: 20px; */
+    /* height: 20px; */
+    content: '•';
+    text-align: center;
+    opacity: .25;
+    color: black;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  /* Add this CSS to your existing styles or create a new CSS file */
+/* Courses.css */
+
+.course-section {
+	display: flex;
+  }
+  
+  .course-card {
+	background-color: #f8f9fa;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	flex: 1;
+	margin: 15px;
+	text-align: center;
+	max-width: 300px; /* Set a maximum width for each card */
+  }
+  
+  .course-card h3 {
+	margin-top: 10px;
+  }
+  
+  .course-card p {
+	margin-bottom: 15px;
+  }
+  
+  
+  
+  /* Courses.css */
+.course-image {
+	width: 100px; /* Adjust the width of the images */
+	height: 100px; /* Adjust the height of the images */
+	object-fit: cover; /* Maintain aspect ratio and cover the container */
+	border-radius: 50%; /* Make the images circular */
+	margin-bottom: 10px; /* Add some margin below the images for spacing */
+  }
+  /* Add this to your style.css file */
+
+.course-testimonial {
+	position: relative;
+  }
+  
+  .testimonial-content {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	background-color: rgba(255, 255, 255, 0.9); /* Background color for better readability */
+	padding: 15px;
+	width: 80%; /* Adjust the width as needed */
+	border-radius: 10px;
+  }
+  
+  .course-testimonial h3 {
+	margin: 0;
+  }
+  
+  .course-testimonial p {
+	margin: 10px 0;
+  }
   
   
