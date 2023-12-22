@@ -11,6 +11,7 @@ import Courses  from '../components/Courses';
 import Testinomial from '../components/Testinomial';
 
 
+
 const Default = () => {
   return (
     <>
@@ -19,6 +20,7 @@ const Default = () => {
       <Courses />
       <Faculty />
       <Testinomial/>
+     
       {/* <OurProducts />
       <WhyChoose />
       <ServivesProcess />

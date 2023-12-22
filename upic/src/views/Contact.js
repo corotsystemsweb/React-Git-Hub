@@ -24,7 +24,7 @@ const Contact = () => {
                   Bengaluru - 560017</p>
                  
                   <hr />
-                  <p> Phone - 9886658489</p>
+                  <p> Phone - </p>
                   <hr />
                   <p> Email: greencomp.in@gmail.com</p>
                   <hr />
