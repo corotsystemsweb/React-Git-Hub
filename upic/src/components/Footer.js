@@ -25,14 +25,14 @@ const Footer = () => {
                </div>
                <div className="col-md-4 ">
                   <div className="contact">
-                     <h3>Conatct Us</h3>
-                     <span><br />
-                      <br />
-                        <br />
-                       <br />
+                     <h4>Conatct Us</h4>
+                     <span>Gorakhpur<br />
+                      Uttar Pradesh<br />
+                        India<br />
+                       
                         Phone - 9886658489 
                         </span>
-                        <hr />
+                       
                      </div>
 
                   </div>
