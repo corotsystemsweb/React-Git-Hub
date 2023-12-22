@@ -40,7 +40,7 @@ const Footer = () => {
                       <br />
                         <br />
                        <br />
-                        Phone - 9886658489 
+                        Phone -
                         </span>
                   </div>
                </div>
