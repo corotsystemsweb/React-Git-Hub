@@ -2713,6 +2713,7 @@ text-align: center;
 	opacity: 0.78;
 }
 
+<<<<<<< Updated upstream
 @media(max-width:600px){
 	.feature-section .col {
 		border: 1px solid white;
@@ -2722,3 +2723,5 @@ text-align: center;
 		max-height: 290px;
 	}
 }
+=======
+>>>>>>> Stashed changes
