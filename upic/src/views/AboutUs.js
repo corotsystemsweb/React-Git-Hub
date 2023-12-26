@@ -3,13 +3,15 @@ import AboutImg from "../assets/images/about-2.jpeg";
 import About2 from "../assets/images/banner.jpeg";
 import PageTopBanner from '../components/PageTopBanner';
 import "../assets/css/style.css";
+import FacultySection from '../components/Faculty';
 
 
 const AboutUs = () => {
   return (
    <>
          <PageTopBanner pageTitle={"About Us"} />
-         <div className="about">
+         <section>
+         <div className="row pt-50">
             <div className="container">
                <div className="row">
                   <div className="col-md-12 text-center">
@@ -61,6 +63,11 @@ const AboutUs = () => {
                </div>
             </div>
          </div>
+         </section>
+         <section className='bg-alice'>
+         <FacultySection />
+         </section>
+         
       </>
    )
 }

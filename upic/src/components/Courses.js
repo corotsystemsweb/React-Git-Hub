@@ -9,7 +9,7 @@ import IntermediateImg from "../assets/images/intermediate-image.jpg";
 
 const Courses = () => {
   return (
-    <section>
+    <section className='pt-3 pb-5 bg-alice'>
       <div className='container'>
         <div className='row mt-5 mb-5'>
           <div className='col-md-12 text-center'>

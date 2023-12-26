@@ -1048,7 +1048,7 @@ nav.main-menu {
 
 .main-menu ul>li a {
 	padding: 30px 23px 0 23px;
-	line-height: 20px;
+	line-height: 7px;
 	font-size: 16px;
 	display: block;
 	font-weight: 500;
@@ -1662,7 +1662,8 @@ float: right;
 }
 
 ul.sociel_link {
-	display: flex;
+
+display: none;
 flex-wrap: wrap;
 justify-content: center;
 margin: 0 auto;
@@ -2171,6 +2172,14 @@ padding-bottom: 70px;
 text-align: center;
 }
 
+.brand_color .titlepage h2 {
+    font-weight: bold;
+    font-size: 40px !important;
+    text-transform: uppercase;
+    text-align: justify;
+    color: #dff1fd !important;
+}
+
 .brand_color .abouttitle h2 {
      color: #fff;
      text-transform: uppercase;
@@ -2386,8 +2395,8 @@ text-align: center;
     color: #3280ad;
 }
 
-.img-shadow{
-    border: 1px solid gray;
+.img-shadow {
+    border: 15px solid #fff;
     box-shadow: 0 0 0.3rem;
 }
 
@@ -2458,6 +2467,10 @@ text-align: center;
 		padding: 15px;
 		margin: 10px;
 		max-height: 185px;
+	}
+
+	.feature-section col:nth-child(1){
+		background: red;
 	}
 
 	.feature-section .col:hover {
@@ -2532,12 +2545,23 @@ text-align: center;
 
   /* Faculty Section ended */
 
+
+  .slick-dots li button {
+    width: 17px !important;
+    height: 17px !important;
+    border-radius: 50%;
+    background: rgba(241, 235, 235, 0.7) !important;
+    border: 1px solid rgb(142, 140, 140) !important;
+    outline: none;
+    margin: 0px 5px;
+}
+
 /* Style the slider buttons (next and previous) */
 .slick-prev, .slick-next {
 	font-size: 40px; /* Set the font size */
 	width: 40px; /* Set the width */
 	height: 40px; /* Set the height */
-	line-height: 40px; /* Center the icon vertically */
+	line-height: 30px; /* Center the icon vertically */
 	border-radius: 50%; /* Make it a circle */
 	background: rgba(255, 255, 255, 0.7);
 	border: 1px solid #fff;
@@ -2549,22 +2573,23 @@ text-align: center;
 	width: 50px;
 	height: 50px;
   }
+
   .slick-dots li button:before {
     font-family: 'slick';
-    font-size: 10px !important;
+    font-size: 12px !important;
     line-height: 20px;
     position: absolute;
-    top: 0;
-    left: 0;
-    /* width: 20px; */
-    /* height: 20px; */
+    top: -1px !important;
+    left: 3px !important;
+    width: 21px !important;
+    height: 20px !important;
     content: '•';
     text-align: center;
     opacity: .25;
     color: black;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-  }
+}
   /* Add this CSS to your existing styles or create a new CSS file */
 /* Courses.css */
 
@@ -2641,3 +2666,48 @@ text-align: center;
     font-size: 15px !important;
 }
 
+.contact-info {
+    box-shadow: 0 0 2.3rem #e0dfdf;
+    padding: 36px 60px !important;
+    background: #eff4f9;
+    height: 431px;
+    width: 535px !important;
+}
+
+.contact-info h3{
+    color: #d26c6a;
+    margin: 0;
+}
+
+.contact-info p{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.contact-box {
+    border: 1px solid #c3c3c3;
+    padding: 12px;
+    background: #dadada;
+}
+
+.map-box{
+    border: 1px solid #c3c3c3;
+    padding: 12px;
+    background: #dadada;
+}
+
+.bg-alice{
+	background: aliceblue !important;
+}
+
+.ml-65{
+	margin-left: 65px !important;
+}
+
+.pt-50{
+	padding-top: 50px !important;
+}
+
+.banner-bg {
+    background: url(../images//banner-upic.jpg) right 0 no-repeat;
+}

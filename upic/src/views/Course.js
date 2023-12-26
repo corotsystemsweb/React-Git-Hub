@@ -1,6 +1,7 @@
 import React from 'react';
 import CourseImg from "../assets/images/courses.jpeg";
 import PageTopBanner from '../components/PageTopBanner';
+import CourseSection from '../components/Courses';
 
 const Course = () => {
    return (
@@ -34,6 +35,7 @@ const Course = () => {
                </div>
             </div>
          </section>
+      <CourseSection />
       </>
    )
 }

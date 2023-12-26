@@ -77,7 +77,7 @@ const Testimonial = () => {
   };
 
   return (
-    <section>
+    <section className='pt-3 pb-5 bg-alice'>
       <div className='container'>
         <div className='row mt-5 mb-5'>
           <div className='col-md-12 text-center'>
@@ -96,7 +96,7 @@ const Testimonial = () => {
             <Slider {...settings}>
               {courseData.map((course, index) => (
                 <div key={index} className="course-card">
-                  <img src={course.image} alt={course.title} className="rounded-circle course-image text-center" />
+                  <img src={course.image} alt={course.title} className="rounded-circle course-image ml-65" />
                   <h3>{course.title}</h3>
                   <p>{course.description}</p>
                 </div>
