@@ -2712,3 +2712,13 @@ text-align: center;
     background: url(../images//banner-upic.jpg) right 0 no-repeat;
 	opacity: 0.78;
 }
+
+@media(max-width:600px){
+	.feature-section .col {
+		border: 1px solid white;
+		box-shadow: 0 0 0.1rem;
+		padding: 15px;
+		margin: 10px;
+		max-height: 290px;
+	}
+}
