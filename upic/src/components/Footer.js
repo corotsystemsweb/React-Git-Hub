@@ -5,7 +5,7 @@ const Footer = () => {
       <footer>
          <div className="footer ">
             <div className="container">
-               <div className="row">
+               <div className="row contact-pt5">
                   <div className="col-md-4 ">
                      <div className="contact">
                         <h4>Uday Pratap Inter College</h4>
@@ -13,7 +13,7 @@ const Footer = () => {
                      </div>
                   </div>
                   <div className="col-md-4">
-                     <div className="contact ml-5">
+                     <div className="contact ml5">
                         <h4>Useful Links</h4>
                         <ul className="lik">
                            <li> <a href="/about-us">About Us</a></li>

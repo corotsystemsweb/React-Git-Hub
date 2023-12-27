@@ -28,7 +28,7 @@ const PhotoGallery = () => {
          <PageTopBanner pageTitle={"Photo Gallery"} />
 
          <section className='mt-5 mb-5'>
-            <div className='container'>
+            <div className='container pb-3'>
                <div className="row">
                   <div className="col-md-12 text-center">
                      <h2 className='page-head'>Photo Gallery</h2>
@@ -41,7 +41,7 @@ const PhotoGallery = () => {
                </div>
             </div>
             <div class="container">
-               <div class="row mt-5">
+               <div class="row">
                   <div class="column">
                      <img src={Gallery1} alt='Gallary Images' />
                      <img src={Gallery2} alt='Gallary Images' />

@@ -48,7 +48,7 @@ const AboutUs = () => {
             <div className="container mb-5">
                <div className="row mt-5">
                   <div className="col-md-6">
-                     <p>
+                     <p className='margin-p'>
                          Our experienced faculty members are committed to guiding students on
                          their educational journey, cultivating a positive and enriching environment.
                         At Uday Pratap Inter College, we believe in nurturing well-rounded individuals, emphasizing both academic prowess and extracurricular achievements. Our state-of-the-art facilities, coupled with a diverse range of programs, create an atmosphere where students can explore their talents and interests. As we celebrate a rich heritage of educational excellence, we continuously strive to adapt and evolve, ensuring our students are well-prepared for the challenges of the modern world. Join us at Uday Pratap Inter College,
