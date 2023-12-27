@@ -3,7 +3,6 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import "../assets/css/style.css";
-
 // Import your images
 import PrimaryImg from "../assets/images/primary-image.jpg";
 import JuniorImg from "../assets/images/junior-image.jpg";
