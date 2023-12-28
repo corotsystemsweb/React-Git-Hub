@@ -26,26 +26,26 @@ const Footer = () => {
                   <div className="col-md-4 ">
                      <div className="contact">
                         <h4>Conatct Us</h4>
-                        <span>Uday Pratap Inter College,<br />Gorakhpur, Uttar Pradesh, <br />India - 273006 <br />      Phone - 9886658489
-                     </span>
+                        <span>Uday Pratap Inter College,<br />Gopalganj, Siddharthnagar,<br /> Uttar Pradesh, India - 273006 <br />      Phone - 9886658489
+                        </span>
+
+                     </div>
+
+                  </div>
+                  <div className='col-md-12 text-center'>
+                     <p className="copyright">© 2023 Uday Pratap Inter College. All Right Reserved. Designed and Developed By <a href='https://www.corotsystems.com/' target='_blanck'>Corot Systems.</a></p>
 
                   </div>
 
-               </div>
-               <div className='col-md-12 text-center'>
-                  <p className="copyright">© 2023 Uday Pratap Inter College. All Right Reserved. Designed and Developed By <a href='https://www.corotsystems.com/' target='_blanck'>Corot Systems.</a></p>
+
 
                </div>
-
-
-
             </div>
-         </div>
-         {/* <div className="copyright">
+            {/* <div className="copyright">
                <p className="copyright">© 2023 Uday Pratap Inter College. All Right Reserved. Designed and Developed By <a href='https://www.corotsystems.com/' target='_blanck'>Corot Systems.</a></p>
             </div> */}
 
-      </div>
+         </div>
       </footer >
    )
 }
