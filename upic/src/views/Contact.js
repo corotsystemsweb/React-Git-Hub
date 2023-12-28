@@ -5,7 +5,7 @@ const Contact = () => {
       <>
 
          <PageTopBanner pageTitle={"Contact Us"} />
-         <section className='pt-5'>
+         <section className='mt5'>
             <div class="container">
                <div class="row">
                   <div className="container">
@@ -39,11 +39,9 @@ const Contact = () => {
                            </div>
                         </div>
                         <div className="col-md-6">
-                           <div className="mp-box">
-                              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d227993.39284559633!2d83.23910056642623!3d26.763619843503722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3991446a0c332489%3A0x1ff3f97fdcc6bfa2!2sGorakhpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1703249349203!5m2!1sen!2sin"
-                                 width="532" height="430" allowfullscreen="" loading="lazy"
-                                 referrerpolicy="no-referrer-when-downgrade">
-                              </iframe>
+                           <div className="">
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d908038.7506604068!2d82.20614180287002!3d27.24970231032047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3996c4ae6af210c9%3A0x9983449db5a00573!2sSiddharthnagar%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1703748076169!5m2!1sen!2sin"
+                            width="532" height="430"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                            </div>
                         </div>
                      </div>

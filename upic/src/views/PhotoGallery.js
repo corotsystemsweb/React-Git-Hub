@@ -27,7 +27,7 @@ const PhotoGallery = () => {
       <>
          <PageTopBanner pageTitle={"Photo Gallery"} />
 
-         <section className='mt-5 mb-5'>
+         <section className='mt5 mb-5'>
             <div className='container pb-3'>
                <div className="row">
                   <div className="col-md-12 text-center">

@@ -91,7 +91,7 @@ const Testimonial = () => {
         </div>
         {/* courses Section */}
         <div className="row align-items-start course-section">
-          <div className="col text-center">
+          <div className="col text-center" id='testinomial_slider'>
             <Slider {...settings}>
               {courseData.map((course, index) => (
                 <div key={index} className="course-card">

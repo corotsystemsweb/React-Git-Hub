@@ -2666,16 +2666,17 @@ ul.lik li a:hover {
 
 .footer ul li a:hover,
 .copyright a:hover {
-  color: #d16c6a !important;
-  font-size: 15px !important;
+    color: #38c8a8 !important;
+    font-size: 15px !important;
 }
 
 .contact-info {
   box-shadow: 0 0 2.3rem #e0dfdf;
   padding: 36px 60px !important;
-  background: #eff4f9;
+  background: #eceff7;
   height: 431px;
   width: 535px !important;
+  border: 1px solid #dadada;
 }
 
 .contact-info h3 {
@@ -2713,8 +2714,8 @@ ul.lik li a:hover {
 }
 
 .banner-bg {
-  background: url(../images//banner-upic.jpg) right 0 no-repeat;
-  opacity: 0.78;
+  background: url(../images//banner-pages.jpg) right 0 no-repeat;
+  opacity: 0.98;
 }
 .ml5{
     margin-left:3rem !important;
@@ -2724,14 +2725,50 @@ ul.lik li a:hover {
 	padding-top: 3rem !important;
 }
 
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+	margin: 0 -100px !important;
+}
+
+
+.active {
+    color: #6ba5ac !important;
+}
+
+.mt5{
+    margin-top: 3rem!important;
+}
+
+.para-pad{
+    padding: 0;
+}
+
+iframe{
+  box-shadow: 0 0 2.3rem #e0dfdf;
+  border: 1px solid #acd3b6;
+}
+
+
 @media (max-width: 600px) {
-  .feature-section .col {
-    border: 1px solid white;
-    box-shadow: 0 0 0.1rem;
-    padding: 15px;
-    margin: 10px;
-    max-height: 290px;
-  }
+	.feature-section .col {
+		border: 1px solid white;
+		box-shadow: 0 0 0.1rem;
+		padding: 15px !important;
+		margin: 15px 30px !important;
+		max-height: 290px !important;
+	}
 
   .slick-slider {
     position: relative;
@@ -2757,7 +2794,7 @@ ul.lik li a:hover {
     margin-top: 12px !important;
 }
 .menu-area-main {
-    height: 95px !important;
+    height: 56px !important;
     overflow-y: auto;
 }
 
@@ -2794,8 +2831,8 @@ iframe{
     margin: 30px 0;
 }
 
-.margin-p{
-    margin: -48px 0 30px -10px;
+.margin-p {
+  margin: -48px 0px 30px 0px !important;
 }
 
 .contact-pt5{
@@ -2813,31 +2850,48 @@ iframe{
     padding-top: 0px !important;
 }
 
+
 .main-menu ul > li a {
-    padding: 30px 23px 0 23px;
+    padding: 30px 0px 0 2px;
     line-height: 7px;
-    font-size: 16px;
+    font-size: 10px !important;
     display: block;
     font-weight: 500;
     color: #010005;
     text-transform: uppercase;
-    margin-top: -14px;
+    margin: -41px 6px !important;
+}
+
+.main-menu ul li:first-child {
+    margin-left: 0px !important;
+}
+
+.main-menu ul {
+    margin: -16px 0 -20px 0 !important;
+    list-style-type: none !important;
+}
+
+#testinomial_slider .course-card {
+	background-color: #f8f9fa;
+	padding: 20px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	flex: 1;
+	margin: 0 111px !important;
+	text-align: center;
+	max-width: 300px; /* Set a maximum width for each card */
+  }
+
+  .pt-50 {
+    padding-top: 0 !important;
+}
+
+.mt5 {
+    margin-top: 0 !important;
+}
+
+.para-pad{
+    padding: 0 15px !important;
 }
 }
 
-.slick-slider
-{
-    position: relative;
-    display: block;
-    box-sizing: border-box;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-    -webkit-touch-callout: none;
-    -khtml-user-select: none;
-    -ms-touch-action: pan-y;
-        touch-action: pan-y;
-    -webkit-tap-highlight-color: transparent;
-	margin: 0 -100px !important;
-}

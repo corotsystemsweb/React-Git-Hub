@@ -7,7 +7,7 @@ const Course = () => {
    return (
       <>
          <PageTopBanner pageTitle={"Course Details"} />
-         <section className='mt-5 mb-5'>
+         <section className='mt5 mb-5'>
             <div className="container">
                <div className="row">
                   <div className="col-md-12 text-center">
