@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PageTopBanner from '../components/PageTopBanner';
 import Gallery1 from '../assets/images/gallery-1.jpg';
 import Gallery2 from '../assets/images/gallery-2.jpg';
@@ -19,14 +19,13 @@ import Gallery17 from '../assets/images/gallery-17.jpg';
 import Gallery18 from '../assets/images/gallery-18.jpg';
 import Gallery19 from '../assets/images/gallery-19.jpg';
 import Gallery20 from '../assets/images/gallery-20.jpg';
-
-
-
 const PhotoGallery = () => {
+   useEffect(() =>{
+      document.title = "Photos of Uday Pratap Inter College"
+   },[])
    return (
       <>
          <PageTopBanner pageTitle={"Photo Gallery"} />
-
          <section className='mt5 mb-5'>
             <div className='container pb-3'>
                <div className="row">

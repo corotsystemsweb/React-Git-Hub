@@ -1,9 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import PageTopBanner from '../components/PageTopBanner';
 const Contact = () => {
+   useEffect(() => {
+document.title = "Contact to Uday Pratap Inter College"
+   },[])
    return (
       <>
-
          <PageTopBanner pageTitle={"Contact Us"} />
          <section className='mt5'>
             <div class="container">

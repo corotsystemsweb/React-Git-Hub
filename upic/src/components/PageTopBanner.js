@@ -7,7 +7,7 @@ const PageTopBanner = (props) => {
         <div class="row">
             <div class="col-md-12">
                 <div class="titlepage">
-                    <h2>{props.pageTitle}</h2>
+                    {/* <h2>{props.pageTitle}</h2> */}
                 </div>
             </div>
         </div>

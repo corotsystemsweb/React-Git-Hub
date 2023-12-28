@@ -1,9 +1,12 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import CourseImg from "../assets/images/courses.jpeg";
 import PageTopBanner from '../components/PageTopBanner';
 import CourseSection from '../components/Courses';
 
 const Course = () => {
+   useEffect(() => {
+      document.title = "Courses offer by Uday Pratap Inter College"
+   },[])
    return (
       <>
          <PageTopBanner pageTitle={"Course Details"} />

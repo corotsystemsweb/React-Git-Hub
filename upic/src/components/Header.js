@@ -24,7 +24,7 @@ const Header = () => {
                   </div>
                   <div className="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                        <div className="top-box">
-                        <p>Phone: 9886658489 | Email: testsite@gmail.com </p>
+                        <p><strong>Phone : 9886658489</strong> </p>
                     </div>
                   </div>
                </div>

@@ -1,12 +1,13 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import AboutImg from "../assets/images/about-2.jpeg";
 import About2 from "../assets/images/banner.jpeg";
 import PageTopBanner from '../components/PageTopBanner';
 import "../assets/css/style.css";
 import FacultySection from '../components/Faculty';
-
-
 const AboutUs = () => {
+   useEffect (() =>{
+  document.title = "About Uday Pratap Inter College"
+   }, [])
   return (
    <>
          <PageTopBanner pageTitle={"About Us"} />
