@@ -2714,7 +2714,7 @@ ul.lik li a:hover {
 }
 
 .banner-bg {
-  background: url(../images//banner-pages.jpg) right 0 no-repeat;
+  background: url(../images//pages-banner.jpg) right 0 no-repeat;
   opacity: 0.98;
 }
 .ml5{
@@ -2804,7 +2804,7 @@ iframe{
 
 .brand_color .titlepage h2 {
     font-weight: bold;
-    font-size: 20px !important;
+    font-size: 0 !important;
     text-transform: uppercase;
     text-align: justify;
     color: #dff1fd !important;
@@ -2892,6 +2892,12 @@ iframe{
 
 .para-pad{
     padding: 0 15px !important;
+}
+
+.brand_color .titlepage {
+  margin-top: 50px !important;
+  padding-bottom: 70px;
+  text-align: center;
 }
 }
 
