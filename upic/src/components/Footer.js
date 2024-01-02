@@ -1,6 +1,6 @@
 import React from 'react';
-import { NavLink } from "react-router-dom";
 const Footer = () => {
+   const currentYear = new Date().getFullYear();
    return (
       <footer>
          <div className="footer ">
@@ -33,7 +33,7 @@ const Footer = () => {
 
                   </div>
                   <div className='col-md-12 text-center'>
-                     <p className="copyright">© 2023 Uday Pratap Inter College. All Right Reserved. Designed and Developed By <a href='https://www.corotsystems.com/' target='_blanck'>Corot Systems.</a></p>
+                     <p className="copyright">© {currentYear} Uday Pratap Inter College. All Right Reserved. Designed and Developed By <a href='https://www.corotsystems.com/' target='_blanck'>Corot Systems.</a></p>
 
                   </div>
 
