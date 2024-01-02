@@ -7,7 +7,7 @@ import Testinomial from '../components/Testinomial';
 
 const Default = () => {
   useEffect(() => {
-document.title = "Welcome to Uday Pratap Inter College, Gorakhpur"
+document.title = "Welcome to Uday Pratap Inter College"
   },[])
   return (
     <>
